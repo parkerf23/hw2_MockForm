@@ -10,22 +10,24 @@
     <title>Sign On Form</title>
 </head>
 
+
 <body>
+    <div id="formStyle">
+        <div class="container mt-5">
+            <h1>Welcome, Please Sign in!</h1>
 
-    <h1>Welcome Please Sign in!</h1>
+            <form id="unDo" name="enForm">
+                First Name:<br>
+                <input id="fnInput" type="text" name="fName"><br>
+                Last Name:<br>
+                <input id="lnInput" type="text" name="lName"><br>
+                Email:<br>
+                <input id="emInput" type="email" name="eMail"><br>
 
-    <form>
-        First Name:<br>
-        <input id="myInput" type="text"><br>
-        Last Name:<br>
-        <input id="myInput" type="text"><br>
-        Email:<br>
-        <input type="text"><br>
-        <p id="check2"></p>
-        <button type="button" onclick="checkSignInfo()">Submit</button>
-    </form>
-
-
+                <button id="buttonStyle" type="button" onclick="checkSignInfo()">Submit</button> <button id="buttonStyle" type="button" onclick="clearForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
 
 </body>
 
