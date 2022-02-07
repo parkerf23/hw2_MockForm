@@ -9,12 +9,14 @@ main {
 #formStyle {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
-    background-color: #0dcaf0;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 #buttonStyle {
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
 }
 
 #buttonStyle:hover {
@@ -22,7 +24,7 @@ main {
 }
 
 .container {
-    background: #b19cd9;
+    background: #d4d4f7;
     border-radius: 5px;
     padding-right: 5em;
     padding-left: 5em;
@@ -39,5 +41,5 @@ footer {
     margin-top: 20em;
     width: 100%;
     position: absolute;
-    background-color: #b19cd9;
+    background-color: #d4d4f7;
 }
